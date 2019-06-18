@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 60px;
+  height: 80px;
+  background-color: rgb(7, 15, 65);
+}
+
+.header a {
+  color: white;
+  font-size: 16px;
+}
+
+.header a:hover {
+  color: deepskyblue;
+}
+
+.header .links {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
